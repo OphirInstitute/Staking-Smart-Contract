@@ -9,6 +9,7 @@ npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run --network localhost scripts/deploy.js
 ```
 # Staking-Smart-Contract
+Did not write a test for this contract
